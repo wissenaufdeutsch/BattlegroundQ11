@@ -2,8 +2,8 @@
 /**
  * Write a description of class START here.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author Michael Koopmans
+ * @version 0.1
  */
 public class START
 {
@@ -24,9 +24,9 @@ public class START
         //Hier müssen neue Teilnehmer rein
         CONTENDER a = new CHICKEN();
         a.SetzeName("Bernd");
-        
+        CONTENDER c = new CHICKEN();
         b.TeilnehmerHinzu(a); //Fuegt CHICKEN zu den Teilnehmern hinzu
-        b.TeilnehmerHinzu(new CHICKEN()); //Fuegt CHICKEN zu den Teilnehmern hinzu
+        b.TeilnehmerHinzu(c); //Fuegt CHICKEN zu den Teilnehmern hinzu
         
     }
     
