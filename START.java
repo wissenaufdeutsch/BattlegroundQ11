@@ -35,6 +35,9 @@ public class START
         CONTENDER c2 = new KARIN();
         b.TeilnehmerHinzu(c2);
         
+        CONTENDER x = new GOD();
+        b.TeilnehmerHinzu(x);
+        
     }
 
     /**
