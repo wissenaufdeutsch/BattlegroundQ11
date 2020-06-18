@@ -21,13 +21,12 @@ public class START
      */
     public void InitContenders()
     {
-        //Hier müssen neue Teilnehmer rein
-        CONTENDER a = new CHICKEN();
-        a.SetzeName("Bernd");
+        //Hier müssen neue Teilnehmer 
         CONTENDER c = new CHICKEN();
-        b.TeilnehmerHinzu(a); //Fuegt CHICKEN zu den Teilnehmern hinzu
         b.TeilnehmerHinzu(c); //Fuegt CHICKEN zu den Teilnehmern hinzu
         
+        CONTENDER l = new LION();
+        b.TeilnehmerHinzu(l);
     }
     
     /**
