@@ -38,7 +38,8 @@ public class START
         CONTENDER c2 = new KARIN();
         b.TeilnehmerHinzu(c2);
         
-        
+        CONTENDER j = new JANNIS();
+        b.TeilnehmerHinzu(j);
         
     }
 
