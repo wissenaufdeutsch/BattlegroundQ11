@@ -8,7 +8,7 @@
 public class START
 {
     private BATTLEFIELD b;
-    
+
     public START()
     {
         b = new BATTLEFIELD();
@@ -24,11 +24,19 @@ public class START
         //Hier müssen neue Teilnehmer 
         CONTENDER c = new CHICKEN();
         b.TeilnehmerHinzu(c); //Fuegt CHICKEN zu den Teilnehmern hinzu
-        
+
         CONTENDER l = new LION();
         b.TeilnehmerHinzu(l);
+       
+        CONTENDER a = new IKJHJTV();
+        b.TeilnehmerHinzu(a);
+        
+
+        CONTENDER c2 = new KARIN();
+        b.TeilnehmerHinzu(c2);
+        
     }
-    
+
     /**
      * DONT CHANGE THIS!
      */
