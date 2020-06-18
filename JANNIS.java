@@ -15,7 +15,9 @@ public class JANNIS extends CONTENDER
      */
     public JANNIS()
     {
-     super ();   
+     super ();
+     SetzeName("Jannis");
+     SetzeBeschreibung("Fürchte mich!");
     }
 
     public  double gibWkeitSchere()
