@@ -27,6 +27,9 @@ public class START
         
         CONTENDER l = new LION();
         b.TeilnehmerHinzu(l);
+        
+        CONTENDER c2 = new KARIN();
+        b.TeilnehmerHinzu(c2);
     }
     
     /**
