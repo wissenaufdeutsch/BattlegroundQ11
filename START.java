@@ -41,6 +41,9 @@ public class START
         CONTENDER j = new JANNIS();
         b.TeilnehmerHinzu(j);
         
+        CONTENDER m = new MIGHTYMOPS();
+        b.TeilnehmerHinzu(m);
+        
     }
 
     /**
