@@ -22,6 +22,9 @@ public class START
     public void InitContenders()
     {
         //Hier müssen neue Teilnehmer 
+        CONTENDER x = new GOD();
+        b.TeilnehmerHinzu(x);
+        
         CONTENDER c = new CHICKEN();
         b.TeilnehmerHinzu(c); //Fuegt CHICKEN zu den Teilnehmern hinzu
 
@@ -35,8 +38,7 @@ public class START
         CONTENDER c2 = new KARIN();
         b.TeilnehmerHinzu(c2);
         
-        CONTENDER x = new GOD();
-        b.TeilnehmerHinzu(x);
+        
         
     }
 
