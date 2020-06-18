@@ -116,6 +116,14 @@ public class BATTLEFIELD implements Runnable
                 siegeL = siegeL+1;
                 d.RundeSieg(l, siegeL,siegeR);
             }
+            if(l.IsCheater())
+            {
+                siegeL = 0;
+            }
+            if(r.IsCheater())
+            {
+                siegeR = 0;
+            }
             pauseFuerAnimation(2000);
         }
 
