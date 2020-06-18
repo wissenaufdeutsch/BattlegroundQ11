@@ -6,6 +6,8 @@ public class KARIN extends CONTENDER
     public KARIN()
     {
        super();
+       SetzeName("Karin");
+       SetzeBeschreibung("Hauptsache ich bin dabei!");
     }
 
     public double gibWkeitSchere()
