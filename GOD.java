@@ -14,8 +14,8 @@ public class GOD extends CONTENDER
     public GOD()
     {
         super();
-        SetzeName("Chicken");
-        SetzeBeschreibung("Das Chicken ist besonders in großen Gruppen tödlich! Nicht ärgern!");
+        SetzeName("God");
+        SetzeBeschreibung("A Chicken imposter!");
     }
     
     public double gibWkeitPapier()
