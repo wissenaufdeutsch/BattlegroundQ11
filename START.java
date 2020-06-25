@@ -24,6 +24,9 @@ public class START
         //Hier müssen neue Teilnehmer 
         CONTENDER c = new CHICKEN();
         b.TeilnehmerHinzu(c); //Fuegt CHICKEN zu den Teilnehmern hinzu
+        
+        CONTENDER d = new BRAINY();
+        b.TeilnehmerHinzu(d);
 
     }
 
