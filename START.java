@@ -28,6 +28,8 @@ public class START
         CONTENDER d = new BRAINY();
         b.TeilnehmerHinzu(d);
 
+        CONTENDER m = new MARCELLO();
+        b.TeilnehmerHinzu(m);
     }
 
     /**
