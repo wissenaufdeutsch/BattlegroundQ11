@@ -27,6 +27,9 @@ public class START
 
         CONTENDER m = new MARCELLO();
         b.TeilnehmerHinzu(m);
+        
+        CONTENDER f = new MASTERMIND();
+        b.TeilnehmerHinzu(f);
     }
 
     /**
