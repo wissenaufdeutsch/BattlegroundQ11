@@ -25,6 +25,8 @@ public class START
         CONTENDER c = new CHICKEN();
         b.TeilnehmerHinzu(c); //Fuegt CHICKEN zu den Teilnehmern hinzu
 
+        CONTENDER m = new MARCELLO();
+        b.TeilnehmerHinzu(m);
     }
 
     /**
