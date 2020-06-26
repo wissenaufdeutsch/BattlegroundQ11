@@ -36,6 +36,8 @@ public class START
         
         CONTENDER f = new MASTERMIND();
         b.TeilnehmerHinzu(f);
+         CONTENDER l = new Logan();
+        b.TeilnehmerHinzu(l);
 
     }
 
