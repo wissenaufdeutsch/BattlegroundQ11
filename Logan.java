@@ -20,7 +20,7 @@ public class Logan extends CONTENDER
     
     public double gibWkeitPapier()
     {
-        return 0.5;
+        return 0.3;
     }
     
     public double gibWkeitSchere()
@@ -30,7 +30,7 @@ public class Logan extends CONTENDER
     
     public double gibWkeitStein()
     {
-        return 0.2;
+        return 0.4;
     }
     
 

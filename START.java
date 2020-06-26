@@ -38,6 +38,8 @@ public class START
         b.TeilnehmerHinzu(f);
          CONTENDER l = new Logan();
         b.TeilnehmerHinzu(l);
+        CONTENDER v = new Captian_Vor();
+        b.TeilnehmerHinzu(v);
 
     }
 
