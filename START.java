@@ -38,8 +38,11 @@ public class START
         CONTENDER k = new SCHUELER("Kilian");
         b.TeilnehmerHinzu(k);
 
+        CONTENDER m = new MIAMI();
+        b.TeilnehmerHinzu(m);
 
-
+        CONTENDER p = new PLATYPUS();
+        b.TeilnehmerHinzu(p);       
     }
     /**
      * DONT CHANGE THIS!

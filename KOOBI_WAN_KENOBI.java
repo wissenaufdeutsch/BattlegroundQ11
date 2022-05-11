@@ -16,11 +16,11 @@ public class KOOBI_WAN_KENOBI extends CONTENDER
     
     public double gibWkeitSchere()
     {
-        return 0.5;
+        return 0.44435983479587349875;
     }
     
     public double gibWkeitStein()
     {
-        return 0.2;
+        return 0.2567657657657;
     }
 }
