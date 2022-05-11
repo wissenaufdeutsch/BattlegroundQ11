@@ -25,7 +25,8 @@ public class START
          
         CONTENDER v = new CHICKEN();
         b.TeilnehmerHinzu(v);
-    
+        CONTENDER c = new SCHUELER("Kilian");
+        b.TeilnehmerHinzu(c);
 
     }
 
