@@ -50,8 +50,11 @@ public class START
 
         
 
+        CONTENDER m = new MIAMI();
+        b.TeilnehmerHinzu(m);
 
-
+        CONTENDER p = new PLATYPUS();
+        b.TeilnehmerHinzu(p);       
     }
     /**
      * DONT CHANGE THIS!
