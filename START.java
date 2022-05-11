@@ -27,7 +27,9 @@ public class START
        
         b.TeilnehmerHinzu(c); //Fuegt CHICKEN/PLATYPUS zu den Teilnehmern hinzu
 
-      
+        CONTENDER w= new WILLSMITH();
+        
+      b.TeilnehmerHinzu(w); //Fuegt WILLSMITH hinzu
 
     }
 
