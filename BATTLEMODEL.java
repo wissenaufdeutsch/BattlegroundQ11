@@ -48,7 +48,7 @@ public class BATTLEMODEL
     {
         CONTENDER c = contenders.get(index);
         double w = GibWkeit(index);
-        if(w<1)
+        if(w>1)
         {
             c.SetzeCheater();
             return true;
