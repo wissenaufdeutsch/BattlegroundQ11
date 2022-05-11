@@ -29,6 +29,8 @@ public class START
         CONTENDER w = new WASCHBÄR();
         b.TeilnehmerHinzu(w);
         
+
+        
         CONTENDER ws= new WILLSMITH();
         b.TeilnehmerHinzu(ws);
         //Fuegt WILLSMITH hinzu
