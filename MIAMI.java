@@ -11,12 +11,12 @@ public class MIAMI extends CONTENDER
     
     public double gibWkeitPapier()
     {
-        return 0.2;
+        return 0.01;
     }
     
     public double gibWkeitSchere()
     {
-        return 0.45;
+        return 0.64;
     }
     
     public double gibWkeitStein()
