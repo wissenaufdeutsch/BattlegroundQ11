@@ -48,8 +48,9 @@ public class START
         CONTENDER ko = new KOOBI_WAN_KENOBI();
         b.TeilnehmerHinzu(ko);
 
+        
 
-      
+
 
     }
     /**
