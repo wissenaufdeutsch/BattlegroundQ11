@@ -22,10 +22,11 @@ public class START
     public void InitContenders()
     {
         //Hier müssen neue Teilnehmer 
-        
+         
         CONTENDER v = new CHICKEN();
         b.TeilnehmerHinzu(v);
     
+
     }
 
     /**
