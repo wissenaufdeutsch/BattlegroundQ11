@@ -23,6 +23,7 @@ public class START
     {
 
 
+
         CONTENDER v = new CHICKEN();
         b.TeilnehmerHinzu(v);
         CONTENDER c = new SCHUELER("Kilian");
@@ -30,6 +31,7 @@ public class START
       //Fuegt CHICKEN zu den Teilnehmern hinzu
 
       
+
 
 
 
