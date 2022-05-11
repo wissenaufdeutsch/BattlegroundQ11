@@ -27,7 +27,7 @@ public class START
         b.TeilnehmerHinzu(c);
         CONTENDER w = new WASCHBÄR();
         b.TeilnehmerHinzu(w);
-
+        
 
         CONTENDER ws= new WILLSMITH();
         
