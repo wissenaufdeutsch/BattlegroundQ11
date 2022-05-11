@@ -48,13 +48,11 @@ public class START
         CONTENDER ko = new KOOBI_WAN_KENOBI();
         b.TeilnehmerHinzu(ko);
 
-        
+        CONTENDER ca = new CANDICE();
+        b.TeilnehmerHinzu(ca);
 
-        CONTENDER m = new MIAMI();
-        b.TeilnehmerHinzu(m);
-
-        CONTENDER p = new PLATYPUS();
-        b.TeilnehmerHinzu(p);       
+        CONTENDER pa = new PAPIER();
+        b.TeilnehmerHinzu(pa);     
     }
     /**
      * DONT CHANGE THIS!
