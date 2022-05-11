@@ -13,7 +13,7 @@ public class PLATYPUS extends CONTENDER
     
   public double gibWkeitPapier()
     {
-        return 0.5;
+        return 0.2;
     }
     
   public double gibWkeitSchere()
@@ -23,7 +23,7 @@ public class PLATYPUS extends CONTENDER
     
   public double gibWkeitStein()
     {
-        return 0.2;
+        return 0.5;
     }
     
 }
