@@ -23,10 +23,11 @@ public class START
     {
         //Hier müssen neue Teilnehmer 
         CONTENDER c = new CHICKEN();
+          CONTENDER w = new WASCHBÄR();
 
        
         b.TeilnehmerHinzu(c); //Fuegt CHICKEN/PLATYPUS zu den Teilnehmern hinzu
-
+b.TeilnehmerHinzu(w);
       
 
     }
