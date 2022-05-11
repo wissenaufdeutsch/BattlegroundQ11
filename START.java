@@ -53,7 +53,7 @@ public class START
 
         CONTENDER pa = new PAPIER();
         b.TeilnehmerHinzu(pa);     
-    }
+        }
     /**
      * DONT CHANGE THIS!
      */
