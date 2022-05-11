@@ -29,6 +29,11 @@ public class START
         b.TeilnehmerHinzu(w);
 
 
+        CONTENDER ws= new WILLSMITH();
+        
+      b.TeilnehmerHinzu(ws); //Fuegt WILLSMITH hinzu
+
+
        
         CONTENDER k = new SCHUELER("Kilian");
         b.TeilnehmerHinzu(k);
