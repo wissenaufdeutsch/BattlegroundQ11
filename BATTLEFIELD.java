@@ -51,7 +51,7 @@ public class BATTLEFIELD implements Runnable
         pauseFuerAnimation(2000);
         for(int k = 0; k<model.GibAnzahlTeilnehmer(); k=k+1)
         {
-            d.Endergebnis(k+1, model.GibName(k), model.GibPunkte(k));
+            d.Endergebnis(0, model.GibName(k), model.GibPunkte(k));
             pauseFuerAnimation(1000);
         }
         
